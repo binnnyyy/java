@@ -1,9 +1,13 @@
-package practice 01;
-public static void main(String[] args) {
-Sytem.out.println("Hello, world");
-// 자바 주석 넣는 법
+package practice_01;
+public class chapter_01: {
+  public static void main(String[] args) {
+    Sytem.out.println("Hello, world");
+    // 자바 주석 넣는 법
 
-/*
-여러 줄~
-주석 넣는 법
-*/
+    /*  
+    여러 줄~
+    주석 넣는 법
+    */
+
+  }
+}
