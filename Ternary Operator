@@ -1,0 +1,14 @@
+package pactice;
+public class quiz;
+public static void main(String[] args) {
+  int height = 120;  // 키 입력값
+  String result = (height >= 120) ? "탑승 가능합니다" : "탑승 불가능합니다";
+  System.out.println("키가 " + height + " cm 이므로 " + result);
+
+
+  // 삼항 연산자
+  // (조건) ? (참) : (거짓);
+  // 조건식 ? 실행문1 : 실행문2;
+
+  }
+}
