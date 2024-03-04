@@ -1,0 +1,41 @@
+package practice;
+  public class Variable01;
+    public static void main(String[] args) {
+
+      String name;      // name 이라는 문자열 변수 선언
+      name = "홍길동";
+      System.out.println(name + " 님, 주문이 완료 되었습니다.");
+
+
+      int hour = 15;    // hour 라는 이름을 가진 정수 자료
+      System.out.println(name + " 님" + hour + "시에 도착 예정입니다.);
+
+      
+      double score = 90.5;    // 실수 값을 문자형으로
+      char grade = 'A';       // 한 문자인 char는 '작은 따옴표' 사용
+      name = "강백호";        // 변수 값 업데이트
+      System.out.println(name + "님의 평균 점수는" + score + "점 입니다.");
+      System.out.println("학점은 " + grade + " 입니다.");
+
+      boolean pass = true;
+      System.out.println("이번 시험에 합격 했을까요?" + pass);                   
+
+      
+      double d = 3.1415163934834;  // 소수점 끝까지 출력 가능
+      float f = 3.12456789123F;    // float 자료형(소수점 7자리까지 출력)                        
+
+     	System.out.println(d);
+		  System.out.println(f);                    
+
+//    int i = 1000000000000;        // 정수 형태로 적으면 자동으로 int 들어감
+                                   // 정수 계산할 때 범위가 21억 초과하지 않으면 int 사용
+                                   // 숫자가 int의 범주를 벗어나서 빨간줄임
+                           
+// 21억 초과하면 long 사용
+      long l = 1_000_000_000_000L;  //숫자를 편하게 보기 위해 _(언더바) 사용
+      System.out.println(l);      
+                         
+    }
+}
+                 
+                         
