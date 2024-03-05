@@ -1,0 +1,31 @@
+package stringpractice;
+
+public class String01;
+  public static void main(String[] args) {
+    String s = "I like Java and Python and C."  // 글자수 29
+    System.out.println(s);
+
+    System.out.println(s.length());  // 29
+
+    System.out.println(s.toUpperCase());  // 대문자로 변환
+    System.out.println(s.toLowerCase());  // 소문자로 변환
+    
+    // 포함 관계
+    System.out.println(s.contains("Java"));  // true
+    System.out.println(s.contains("java"));  // false
+    // 확인하고 싶은 문구를 넣으면 됨, 포함된다면 true, 포함되지 않는다면 false
+
+    System.out.println(s.contains("c#"));  // flase
+
+    System.out.println(s.indexOf("Java"));  // Java라는 문자열의 위치 정보 : 7
+    System.out.println(s.indexOf("C#));  // 포함되지 않는다면 -1
+    System.out.println(s.indexOf("and"));  // 처음 일치하는 위치 정보 : 12
+    System.out.println(s.lastindexOf("and"));  // 마지막에 일치하는 위치 정보
+
+    System.out.println(s.startswith("I like"));  // 이 문자로 시작하면 true
+    System.out.println(s.endsWith("C"));  // 이 문자열로 끝나면 flase
+    System.out.println(s.endsWith("."));  // 이 문자열로 끝나면 true, 기호도 참고해야함!
+
+  }
+}
+
